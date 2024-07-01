@@ -1,0 +1,30 @@
+{
+  "name": "simple-task-manager-node",
+  "version": "1.0.0",
+  "description": "A simple to-do list app to practice the MERN stack.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nbrosz/simple-task-manager-node.git"
+  },
+  "author": "Nic Brosz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nbrosz/simple-task-manager-node/issues"
+  },
+  "homepage": "https://github.com/nbrosz/simple-task-manager-node#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.14.9",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.2"
+  }
+}
