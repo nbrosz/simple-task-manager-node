@@ -1,6 +1,5 @@
-// tests for task services using mockingoose
 const mockingoose = require('mockingoose');
-const TaskModel = require('../models/Task');
+const TaskModel = require('../models/task');
 const { createTask, fetchTasks } = require('./task');
 
 describe('Task service', () => {
