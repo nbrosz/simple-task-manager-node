@@ -2,12 +2,12 @@
   "name": "simple-task-manager-node",
   "version": "1.0.0",
   "description": "A simple to-do list app to practice the MERN stack.",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
     "start": "node dist/index.js",
     "dev": "ts-node src/index.ts",
-    "test": "jest"
+    "test": "jest src"
   },
   "repository": {
     "type": "git",

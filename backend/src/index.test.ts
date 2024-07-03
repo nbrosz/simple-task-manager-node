@@ -1,4 +1,4 @@
-import { greet } from './index';
+import { greet } from '.';
 
 describe('greet function', () => {
     const testCases = [
