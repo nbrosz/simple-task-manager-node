@@ -1,6 +1,13 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
+export interface ITask {
+  title: string;
+  description: string;
+  completed: boolean;
+  createdAt: Date;
+}
+
 const TaskSchema = new Schema({
   title: {
     type: String,
